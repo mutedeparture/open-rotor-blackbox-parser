@@ -22,7 +22,7 @@ A lightweight Python parser for Betaflight Blackbox `.bbl` logs. Extracts comple
 
 ```bash
 python examples/basic_parse.py path/to/log.bbl
-
+```
 
 # API
 ```python
