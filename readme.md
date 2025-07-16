@@ -21,7 +21,7 @@ A lightweight Python parser for Betaflight Blackbox `.bbl` logs. Extracts comple
 ### CLI
 
 ```bash
-python examples/basic_parse.py path/to/log.bbl
+python -m examples.basic_parse path/to/log.bbl
 ```
 
 # API
@@ -32,6 +32,4 @@ with open("flight_log.bbl", "rb") as f:
     result = parse_blackbox_log(f)
     print(result['headers'])
     print(result['flight_data'][0])
-
-
 ```
